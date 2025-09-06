@@ -1,0 +1,1492 @@
+[
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.30.00", "and", "credited", "to", "naushaadbaba39@okhdfcbank", "UPI", "Ref", "no", "211298200980", "Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "I-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Cash", "deposit", "of", "Rs", "4500.00", "to", "Acct", "370505000344", "has", "been", "initiated", "through", "ICICI", "Bank", "INSTA", "Banking", "Pls", "quote", "Reference", "No.", "MCDA00094599401", "at", "the", "counter.", "You", "will", "get", "another", "SMS", "confirming", "the", "completion", "of", "transaction.", "Request", "for", "a", "hard", "copy", "receipt,", "if", "you", "do", "not", "receive", "the", "confirmation", "SMS."],
+    "labels": ["B-TRANSACTION_TYPE", "I-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "B-BANK", "I-BANK", "O", "O", "O", "O", "O", "O", "B-TXN_ID", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.200.00", "and", "credited", "to", "shivuadiwal37@okhdfcbank", "(UPI", "Ref", "no", "211281021914).-Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "I-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Paid", "Rs.470.82", "to", "Vodafone", "Idea", "Ltd", "from", "Paytm", "Balance.", "Updated", "Balance:", "Paytm", "Wallet", "Rs", "0.0", "More", "Details", "https://paytm.me/Hl-aBK6"],
+    "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "O", "B-PLATFORM", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "B-CURRENCY", "B-AMOUNT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Hi", "finance", "charge", "of", "INR", "6.00", "has", "been", "reversed", "on", "your", "Bajaj", "Finserv", "RBL", "Bank", "SuperCard", "(XXXX07)", "The", "credit", "will", "reflect", "in", "your", "next", "statement.", "Please", "make", "your", "Card", "payments", "before", "the", "due", "date", "to", "avoid", "these", "charges", "in", "future."],
+    "labels": ["O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "I-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Hi,", "finance", "charge", "of", "INR", "33.00", "has", "been", "reversed", "on", "your", "Bajaj", "Finserv", "RBL", "Bank", "SuperCard", "(XXXX07).", "The", "credit", "will", "reflect", "in", "your", "next", "statement.", "Please", "make", "your", "Card", "payments", "before", "the", "due", "date", "to", "avoid", "these", "charges", "in", "future."],
+    "labels": ["O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "I-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.239.00", "and", "credited", "to", "jio@yesbank", "UPI", "Ref", "no", "211044684271", "Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "a/c.", "XXXX4658", "is", "credited", "by", "Rs.", "20.00", "on", "13-04-22", "by", "a/c", "linked", "to", "mobile", "9XXXXXX999", "IMPS", "Ref", "no.", "210322069652.", "IndianBank"],
+    "labels": ["O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "O", "B-CARD", "B-PLATFORM", "B-TXN_ID", "I-TXN_ID", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.80.00", "and", "credited", "to", "paytmqr2810050501011gh1blb1akhv@paytm", "UPI", "Ref", "no", "210393143139", "Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "A/c", "XXX1824658", "is", "credited", "by", "Rs.", "6,000", "Total", "Bal", ":", "Rs.", "7,020.35", "CR", "Clr", "Bal", ":", "Rs.", "7,020.35", "CR", "as", "on:13/04/2022", "13:18", "-IndianBank"],
+    "labels": ["O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-DATE", "I-DATE", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.10.00", "and", "credited", "to", "pale.ram54@oksbi", "UPI", "Ref", "no", "210279327070", "-Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.184.00", "and", "credited", "to", "paytmqr281005050101hevim543zzwx@paytm", "UPI", "Ref", "no", "209881026670", "Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Hi,", "Late", "Payment", "Fee", "of", "INR", "177.00", "has", "been", "reversed", "on", "your", "Bajaj", "Finserv", "RBL", "Bank", "SuperCard", "(XXXX07).", "The", "credit", "will", "reflect", "in", "your", "next", "statement.", "Please", "make", "your", "Card", "payments", "before", "the", "due", "date", "to", "avoid", "these", "charges", "in", "future."],
+    "labels": ["O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "I-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "VPA", "6280368198@paytm", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.91.00", "and", "credited", "to", "jio@yesbank", "UPI", "Ref", "no", "209814123734", "-Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.200.00", "and", "credited", "to", "paytmqr2810050501011hoihy6h7dr8@paytm", "UPI", "Ref", "no", "209762618788", "-Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.30.00", "and", "credited", "to", "bharatpe90720022941@yesbankltd", "UPI", "Ref", "no", "209761281396", "Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Paid", "Rs.352.82", "to", "Vodafone", "Idea", "Ltd", "from", "Paytm", "Balance.", "Updated", "Balance:", "Paytm", "Wallet-", "Rs", "0.", "More", "Details:", "https://paytm.me/qc-vCoG"],
+    "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "O", "B-PLATFORM", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "B-CURRENCY", "B-AMOUNT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Rs.352.82", "spent", "on", "POS/Ecom", "using", "IB", "Debit", "card", "on", "07/04/22", "12:33", "at", "PAYTM", "Noida", "from", "Ac:XXX182465.", "Bal:418.03", "CR", "-IndianBank"],
+    "labels": ["B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-PLATFORM", "O", "B-BANK", "O", "B-CARD", "O", "B-DATE", "I-DATE", "O", "B-PLATFORM", "I-PLATFORM", "O", "B-ACCOUNT_NUMBER", "B-AMOUNT", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Paid", "Rs.352.82", "to", "Vodafone", "Idea", "Ltd", "from", "Paytm", "Balance.", "Updated", "Balance:", "Paytm", "Wallet-", "Rs", "0.", "More", "Details:", "https://paytm.me/xw-HwKJ"],
+    "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "O", "B-PLATFORM", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "B-CURRENCY", "B-AMOUNT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["We", "received", "payment", "of", "Rs", "352.82", "for", "9356965058", "by", "CC.", "Txn", "ID", "PTViApp-POS3973353985455058-1.", "Amt", "to", "be", "credited", "in", "30", "mins.", "Track", "usage", "on", "Vi", "app", "-", "https://bit.ly/VI_App"],
+    "labels": ["O", "B-TRANSACTION_TYPE", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-CARD", "O", "O", "O", "B-TXN_ID", "B-TXN_ID", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "O", "O"]
+  },
+  {
+    "tokens": ["Rs.395.30", "spent", "on", "POS/Ecom", "using", "IB", "Debit", "card", "on", "07/04/22", "12:01", "at", "PAYTM", "NOIDA", "from", "Ac:XXX182465.", "Bal:1123.67", "CR", "-IndianBank"],
+    "labels": ["B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-PLATFORM", "O", "B-BANK", "O", "B-CARD", "O", "B-DATE", "I-DATE", "O", "B-PLATFORM", "I-PLATFORM", "O", "B-ACCOUNT_NUMBER", "B-AMOUNT", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Paid", "Rs.395.3", "to", "Vodafone", "Idea", "Ltd", "from", "Paytm", "Balance.", "Updated", "Balance:", "Paytm", "Wallet-", "Rs", "0.", "More", "Details:", "https://paytm.me/O-ax3pt"],
+    "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "O", "B-PLATFORM", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "B-CURRENCY", "B-AMOUNT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Paid", "Rs.352.82", "to", "Vodafone", "Idea", "Ltd", "from", "Paytm", "Balance.", "Updated", "Balance:", "Paytm", "Wallet-", "Rs", "0.", "More", "Details:", "https://paytm.me/iaa-p7l"],
+    "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "O", "B-PLATFORM", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "B-CURRENCY", "B-AMOUNT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Rs.352.82", "spent", "on", "POS/Ecom", "using", "IB", "Debit", "card", "on", "07/04/22", "11:57", "at", "PAYTM", "Noida", "from", "Ac:XXX182465.", "Bal:1518.97", "CR", "-IndianBank"],
+    "labels": ["B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-PLATFORM", "O", "B-BANK", "O", "B-CARD", "O", "B-DATE", "I-DATE", "O", "B-PLATFORM", "I-PLATFORM", "O", "B-ACCOUNT_NUMBER", "B-AMOUNT", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Paid", "Rs.388.22", "to", "Vodafone", "Idea", "Ltd", "from", "Paytm", "Balance.", "Updated", "Balance:", "Paytm", "Wallet-", "Rs", "0.", "More", "Details:", "https://paytm.me/e3y-cqH"],
+    "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "O", "B-PLATFORM", "O", "O", "O", "B-PLATFORM", "I-PLATFORM", "B-CURRENCY", "B-AMOUNT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Rs.368.22", "spent", "on", "POS/Ecom", "using", "IB", "Debit", "card", "on", "07/04/22", "11:34", "at", "PAYTM", "Noida", "from", "Ac:XXX182465.", "Bal:371.79", "CR", "-IndianBank"],
+    "labels": ["B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-PLATFORM", "O", "B-BANK", "O", "B-CARD", "O", "B-DATE", "I-DATE", "O", "B-PLATFORM", "I-PLATFORM", "O", "B-ACCOUNT_NUMBER", "B-AMOUNT", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.30.00", "and", "credited", "to", "paytmqr281005050101qfhniu15jcz5@paytm", "UPI", "Ref", "no", "209627396393", "-Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd@okaxis", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.30.00", "and", "credited", "to", "paytmqr281005050101sc2s2xjyml6b@paytm", "(UPI", "Ref", "no", "209590254583).-Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "A/c", "XXX1824658", "is", "credited", "by", "Rs.", "6,000", "Total", "Bal", ":", "Rs.", "6,747.91", "CR", "Clr", "Bal", ":", "Rs.", "6,747.91", "CR", "as", "on:23/03/2022", "17:29", "-IndianBank"],
+    "labels": ["O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-DATE", "I-DATE", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "VPA", "sanju39chd-1@okhdfcbank", "linked", "to", "Indian", "Bank", "a/c", "no.", "XXXXXX4658", "is", "debited", "for", "Rs.50.00", "and", "credited", "to", "paytmqr281005050101i0alnxjho49c@paytm", "UPI", "Ref", "no", "208004821663", "Indian", "Bank"],
+    "labels": ["O", "O", "B-VPA", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-TRANSACTION_TYPE", "O", "B-VPA", "O", "O", "B-TXN_ID", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "a/c.", "XXXX4658", "is", "credited", "by", "Rs.", "10.00", "on", "21-03-22", "by", "a/c", "linked", "to", "mobile", "9XXXXXX999", "(IMPS", "Ref", "no.", "208000000522).", "-IndianBank"],
+    "labels": ["O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "B-CARD", "O", "O", "B-TXN_ID", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "A/c", "XXX1824658", "is", "debited", "by", "Rs.", "0", "Bal", "after", "Debit", "Rs.", "371.40", "CR", "MIN", "BAL", "NOT", "MAINTAINED.PL", "MAINTAIN.", "CR", "as", "on:20/03/2022", "11:39", "-IndianBank"],
+    "labels": ["O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "B-DATE", "I-DATE", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "SBI", "Customer,", "Rs.3000", "withdrawn", "at", "HDF", "ATM", "P3DCCH33", "from", "A/cX2977", "on", "25Oct21", "Transaction", "Number", "129813016307.", "Available", "Balance", "Rs.71.", "If", "not", "withdrawn", "by", "you,", "forward", "this", "SMS", "to", "9223008333", "/", "call", "1800111109", "or", "09449112211", "to", "block", "your", "card.", "Download", "YONO", "SBI.", "Use", "SBI", "ATMs."],
+    "labels": ["O", "B-BANK", "O", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "B-PLATFORM", "B-TXN_ID", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "O", "B-TXN_ID", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-BANK", "O", "B-BANK", "B-PLATFORM"]
+  },
+  {
+    "tokens": ["Rs100.0", "debited@SBI", "UPI", "frm", "A/cX2977", "on", "22Oct21", "RefNo", "129535840206.", "If", "not", "done", "by", "u,", "fwd", "this", "SMS", "to", "9223008333/Call", "1800111109", "or", "09449112211", "to", "block", "UPI"],
+    "labels": ["B-AMOUNT", "B-TRANSACTION_TYPE", "B-PLATFORM", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-TXN_ID", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-PLATFORM"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acc", "XX111", "debited", "Rs.", "4,000.00", "on", "24-DEC-23", "NFS"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O"]
+  },
+  {
+    "tokens": ["CASH", "WDL"],
+    "labels": ["B-TRANSACTION_TYPE", "I-TRANSACTION_TYPE"]
+  },
+  {
+    "tokens": [".", "Avb", "Bal", "Rs.", "40,310.00.", "To", "dispute", "Call", "18002662", "or", "SMS", "BLOCK", "566", "to", "9215676766", "."],
+    "labels": ["O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acc", "XX111", "debited", "Rs.", "1,000.00", "on", "29-Dec-23", "NFS"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O"]
+  },
+  {
+    "tokens": ["CASH", "WDL"],
+    "labels": ["B-TRANSACTION_TYPE", "I-TRANSACTION_TYPE"]
+  },
+  {
+    "tokens": [".", "Avb", "Bal", "Rs.", "37,810.00.", "To", "dispute", "Call", "18002662", "or", "SMS", "BLOCK", "566", "to", "9215676766", "."],
+    "labels": ["O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acc", "XX111", "debited", "Rs.", "10,000.00", "on", "02-Jan-24", "NFS"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O"]
+  },
+  {
+    "tokens": ["CASH", "WDL"],
+    "labels": ["B-TRANSACTION_TYPE", "I-TRANSACTION_TYPE"]
+  },
+  {
+    "tokens": [".", "Avb", "Bal", "Rs.", "80,129.00.", "To", "dispute", "Call", "18002662", "or", "SMS", "BLOCK", "566", "to", "9215676766", "."],
+    "labels": ["O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acct", "XX111", "debited", "with", "Rs", "2,000.00", "on", "15-Jan-24", "&", "Acct", "XX744", "credited", "IMPS", ":", "4015205", "Call", "18002662", "for", "dispute", "or", "SMS", "BLOCK", "566", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-PLATFORM", "O", "B-TXN_ID", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acct", "XX111", "debited", "with", "Rs", "10,000.00", "on", "24-Jan-24", "&", "Acct", "XX744", "credited", "IMPS", ":", "40240822.", "Call", "18002662", "for", "dispute", "or", "SMS", "BLOCK", "566", "to", "9215676766"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-PLATFORM", "O", "B-TXN_ID", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Non-payment", "of", "Min", "Due", "will", "be", "reported", "to", "credit", "bureausDear", "Customer,", "payment", "of", "INR", "930", "towards", "your", "HDFC", "Bank", "Credit", "Card", "XX3004", "has", "been", "received", "through", "Click", "to", "Pay", "on", "03-JAN-24.", "Thank", "you."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "O", "B-DATE", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Interest", "Charges", "Reversal", "for", "INR", "207.07", "has", "been", "credited", "to", "HDFC", "Bank", "Credit", "Card", "XX3004", "on", "07-JAN-24.", "For", "details,", "call", "Customer", "Care."],
+    "labels": ["O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "180.0", "on", "date", "31Dec23", "trf", "to", "VIVEK", "JAIN", "Refno", "76352197.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "100.0", "on", "date", "15Jan24", "trf", "to", "NAGARAJA", "S", "R", "Refno", "56901225.", "If", "not", "u?", "call", "1800111109.", "SBI."],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "439.0", "on", "date", "17Jan24", "trf", "to", "NENI", "S", "ANDHRA", "VA", "Refno", "343638784.", "If", "not", "u?", "call", "1800111109.", "SBI."],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "I-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Ur", "1st", "UPI", "Txn", "of", "Rs5000.0", "frm", "SBIN", "A/cXX111", "is", "successful.", "If", "it's", "not", "u,", "visit", "ur", "branch", "or", "mail", "us", "at", "support.upi@sbi.co.in"],
+    "labels": ["O", "O", "B-PLATFORM", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-BANK", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "3000.0", "on", "date", "21Jan24", "trf", "to", "Rishikesh", "Kumar", "Refno", "151786043.", "If", "not", "u?", "call", "1800111109.", "SBI."],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "270.0", "on", "date", "21Jan24", "trf", "to", "LEELA", "KUMARI", "Refno", "54405233.", "If", "not", "u?", "call", "1800111109.", "-SBI."],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "180.0", "on", "date", "21Jan24", "trf", "to", "FOODWISE", "HOSPITA", "Refno", "85054743.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-MERCHANT", "I-MERCHANT", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acct", "XX111", "debited", "with", "Rs", "2,000.00", "on", "21-Jan-24", "&", "Acct", "XX744", "credited.IMPS:21229539.", "Call", "18002662", "for", "dispute", "or", "SMS", "BLOCK", "566", "to", "9215676766"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-PLATFORM", "B-TXN_ID", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "20.0", "on", "date", "24Dec23", "trf", "to", "DURGESH", "KUMAR", "Refno", "335415513.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "20.0", "on", "date", "10Jan24", "trf", "to", "Hamza", "P", "V", "Refno", "401025824717.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "20.0", "on", "date", "10Jan24", "trf", "to", "Hamza", "P", "V", "Refno", "401025824717.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "B-PLATFORM", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "B-PERSON", "I-PERSON", "I-PERSON", "B-TXN_ID", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["INR", "749.00", "spent", "on", "HDFC", "Bank", "Card", "XX0005", "on", "28-Dec-23", "at", "Raz"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },
+  {
+    "tokens": ["RELIANCE", "RE.", "Avl", "Lmt:", "INR", "76,913.66.", "To", "dispute,call", "18002662/SMS", "BLOCK", "0005", "to", "9215676766"],
+    "labels": ["B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "4,000.00", "spent", "on", "HDFC", "Bank", "Card", "XX0005", "on", "29-Dec-23", "at", "MSW"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },
+  {
+    "tokens": ["INR", "2,000.00", "spent", "on", "HDFC", "Bank", "Card", "XX0005", "on", "30-Dec-23", "at", "San"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },
+  {
+    "tokens": ["INR", "1,499.00", "spent", "on", "HDFC", "Bank", "Card", "XX0005", "on", "31-Dec-23", "at", "Ecom"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },
+  {
+    "tokens": ["INR", "1,100.00", "spent", "on", "HDFC", "Bank", "Card", "XX0005", "on", "01-Jan-24", "at", "Swiggy"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },
+  {
+    "tokens": ["INR", "1,406.00", "spent", "on", "HDFC", "Bank", "Card", "XX0005", "on", "18-Jan-24", "at", "MEGHANA", "FOODS.", "Avl", "Lmt:", "INR", "70,896.00.", "To", "dispute,call", "18002662/SMS", "BLOCK", "0005", "to", "9215676766"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acct", "XX111", "debited", "with", "Rs", "5,000.00", "on", "20-Jan-24", "&", "Acct", "XX744", "credited.IMPS:47295431.", "Call", "18002662", "for", "dispute", "or", "SMS", "BLOCK", "566", "to", "9215676766"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Your", "a/c", "no.", "XXXXXX111", "is", "credited", "by", "Rs.3000.00", "on", "05-01-24", "by", "a/c", "linked", "to", "mobile", "6XXXXXX049-Saurav", "DEV", "(IMPS", "Ref", "no", "400500708).If", "not", "done", "by", "you,", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "B-DATE", "O", "O", "O", "O", "O", "B-PHONE_NUMBER", "B-NAME", "B-NAME", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Your", "a/c", "no.", "XXXXXX111", "is", "credited", "by", "Rs.5000.00", "on", "20-01-24", "by", "a/c", "linked", "to", "mobile", "6XXXXXX049-Saurav", "DEV", "(IMPS", "Ref", "no", "402017295).If", "not", "done", "by", "you,", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "B-DATE", "O", "O", "O", "O", "O", "B-PHONE_NUMBER", "B-NAME", "I-NAME", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "2000.0", "on", "date", "30Dec23", "trf", "to", "VISHAL", "KUMAR", "Refno", "336490940.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-NAME", "I-NAME", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "45.0", "on", "date", "10Jan24", "trf", "to", "BASHASAB", "Refno", "245243.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-NAME", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "25.0", "on", "date", "16Jan24", "trf", "to", "UDUPI", "UPAHAR", "Refno", "40970425.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-NAME", "I-NAME", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "330.0", "on", "date", "06Jan24", "trf", "to", "VIKAS", "RAI", "K", "Refno", "400636204.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-NAME", "I-NAME", "I-NAME", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "149.0", "on", "date", "14Jan24", "trf", "to", "SMART", "BAZAAR", "Refno", "4254325.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-MERCHANT", "I-MERCHANT", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "126.0", "on", "date", "13Jan24", "trf", "to", "VILLAGE", "HYPERMAR", "Refno", "42654632.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-MERCHANT", "I-MERCHANT", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "30.0", "on", "date", "13Jan24", "trf", "to", "VILLAGE", "HYPERMAR", "Refno", "245243435.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-MERCHANT", "I-MERCHANT", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acct", "XX111", "debited", "with", "Rs", "10,000.00", "on", "31-Dec-23", "&", "Acct", "XX744", "credited", "IMPS:23454354.", "Call", "18002662", "for", "dispute", "or", "SMS", "BLOCK", "566", "to", "921567676"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["HDFC", "Bank", "Acct", "XX111", "debited", "with", "Rs", "10,000.00", "on", "31-Dec-23", "&", "Acct", "XX744", "credited", "IMPS:2435334543.", "Call", "18002662", "for", "dispute", "or", "SMS", "BLOCK", "566", "to", "9215676766"],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "XX111", "debited", "by", "20.0", "on", "date", "29Dec23", "trf", "to", "SANJAY", "KUMAR", "CHA", "Refno", "234543523.", "If", "not", "u?", "call", "1800111109.", "-SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-NAME", "I-NAME", "I-NAME", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["INR", "1,285.36", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "03-Aug-25", "on", "Jubilant", "Foodwo.", "Avl", "Limit:", "INR", "1,77,327.79.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "a/c", "no.", "TxnToAccount", "is", "credited", "by", "Rs.", "16365.00", "on", "02-Aug-25", "by", "a/c", "linked", "to", "mobile", "XXXXXXXXX931", "(IMPS", "Ref", "no", "521423374881", ").", "Team", "IDFC", "FIRST", "Bank"],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "O", "B-PHONE_NUMBER", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "B-BANK", "I-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Monthly", "interest", "of", "Rs.886.00", "earned", "on", "your", "Savings", "A/c", "XX8179", "has", "been", "credited", "to", "your", "A/C", "on", "31/07/25.", "New", "bal:", "Rs.3,42,989.02.", "IDFC", "FIRST", "Bank"],
+    "labels": ["O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "B-DATE", "O", "O", "B-CURRENCY", "B-AMOUNT", "B-BANK", "I-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "10.00", "on", "31-Jul-25;", "Daalchini", "credited.", "UPI:557812218970.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "10.00", "on", "31-Jul-25;", "Daalchini", "credited.", "UPI:557812218970.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "50.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "30-Jul-25", "on", "GOOGLEPLAY.", "Avl", "Limit:", "INR", "18,666.88.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Payment", "of", "Rs", "43,759.47", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX9000", "through", "Bharat", "Bill", "Payment", "System", "on", "30-JUL-25."],
+    "labels": ["B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "B-DATE"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "43735.47", "on", "30-Jul-25;", "CRED", "Club", "credited.", "UPI:557713121755.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Acct", "XX222", "is", "credited", "with", "Rs", "99.00", "on", "30-Jul-25", "from", "DEEPAK", "AMAR", "BAH.", "UPI", "557731113786", "ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-SENDER", "I-SENDER", "I-SENDER", "O", "B-REFERENCE_NUMBER", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Acct", "XX222", "is", "credited", "with", "Rs", "500.00", "on", "30-Jul-25", "from", "PRASHANT", "SUNIL", ".", "UPI:", "108924922600", "ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-SENDER", "I-SENDER", "O", "O", "B-REFERENCE_NUMBER", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Acct", "XX222", "is", "credited", "with", "Rs", "500.00", "on", "30-Jul-25", "from", "PRASHANT", "SUNIL", ".", "UPI:", "108924922600","ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-SENDER", "I-SENDER", "O", "O", "B-REFERENCE_NUMBER", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "10.00", "on", "30-Jul-25;", "Daalchini", "credited.", "UPI", "557708058853.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "4,552.48", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "29-Jul-25", "on", "PAYPAL", "PAPCUSU.", "Avl", "Limit:", "INR", "1,34,957.41.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "413.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "29-Jul-25", "on", "RELIANCE", "SMART.", "Avl", "Limit:", "INR", "1,39,509.89.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Acct", "XX222", "is", "credited", "with", "Rs", "40.00", "on", "29-Jul-25", "from", "SHAILESH", "GOVARD.", "UPI:", "557673895309", "ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-SENDER", "I-SENDER", "O", "O", "B-REFERENCE_NUMBER", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Acct", "XX222", "is", "credited", "with", "Rs", "99.00", "on", "29-Jul-25", "from", "DINESH", "MANOHAR", ".", "UPI:", "557673895309", "ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-SENDER", "I-SENDER", "O", "O", "B-REFERENCE_NUMBER", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "10.00", "on", "29-Jul-25;", "Daalchini", "credited.", "UPI", "557605908056.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "720.00", "on", "21-Jul-25;", "DINESH", "MANOHAR", "", "credited.", "UPI:556806831702.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "O", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "we", "have", "successfully", "processed", "the", "payment", "of", "INR", "199.00", "for", "NETFLIX,", "as", "per", "the", "Standing", "Instruction", "XhMTb4JFLh,", "on", "22/07/2025", "for", "your", "ICICI", "Bank", "Credit", "Card", "9000.", "To", "manage", "your", "Standing", "Instructions,", "visit", "https://icici.co/ICICIT/GPufao", ">Cards", ">Credit", "Cards>Standing", "Instructions", "and", "Recurring", "Charges>Manage", "Standing", "Instructions."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-MERCHANT", "O", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "B-DATE", "O", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "B-LINK", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "199.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "22-Jul-25", "on", "NETFLIX.", "Avl", "Limit:", "INR", "1,50,100.52.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INDAMAZON", "refund", "of", "Rs", "679.00", "credited", "to", "ICICI", "Bank", "Credit", "Card", "XX9000", "on", "22-JUL-25.", "Revised", "total", "due", "Rs", "43,759.47,", "minimum", "due", "Rs", "21,191.00"],
+    "labels": ["B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+  },
+  {
+    "tokens": ["Rs", "5,444.96", "spent", "on", "ICICI", "Bank", "Card", "XX9000", "on", "23-Jul-25", "at", "PAYPAL", "PAPCUSU.", "Avl", "Lmt:", "Rs", "1,45,334.56.", "To", "dispute,", "call", "18002662/SMS", "BLOCK", "9000", "to", "9215676766.", "To", "convert", "this", "txn", "to", "EMI", "give", "a", "missed", "call", "on", "9537667667.", "Know", "more", "about", "EMI", "conversion", "at", "icici.co/DUvfZI0QFMW"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CONTACT", "O", "O", "O", "O", "O", "O", "B-LINK"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "35.00", "on", "24-Jul-25;", "Daalchini", "credited.", "UPI:", "557131200219.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Acct", "XX222", "is", "credited", "with", "Rs", "240.00", "on", "24-Jul-25", "from", "PREETI", "SHAITAN", "UPI:", "557673895309", "ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-SENDER", "I-SENDER", "O", "B-REFERENCE_NUMBER", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["INR", "327.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "24-Jul-25", "on", "RELIANCE", "SMART.", "Avl", "Limit:", "INR", "1,45,007.56.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["ZeraCustoms.", "Avl", "Limit:", "INR", "1,44,578.46.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "429.10", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "24-Jul-25", "on", "RAZ"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "10.00", "on", "28-Jul-25;", "Daalchini", "credited.", "UPI:", "557531770887.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "577.99", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "20-Jul-25", "on", "KFC.", "Avl", "Limit:", "INR", "1,50,299.52.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["ICICI", "Bank", "Acct", "XX222", "debited", "for", "Rs", "399.00", "on", "19-Jul-25;", "Apple", "Services", "credited.", "UPI:101012438409.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "222", "to", "9215676766."],
+    "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "account", "has", "been", "successfully", "debited", "with", "Rs", "219.00", "on", "19-Jul-25", "towards", "APPLE", "MEDIA", "SER", "for", "Create", "Mandate", "AutoPay,", "RRN", "101012424316-ICICI", "Bank."],
+    "labels": ["O", "O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-REFERENCE_NUMBER", "B-BANK"]
+  },
+  {
+    "tokens": ["INR", "4,609.32", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "17-Jul-25", "on", "PAYPAL", "PAPCUSU.", "Avl", "Limit:", "INR", "1,50,932.71.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "69.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "16-Jul-25", "on", "CANVA"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT"]
+  },  
+  {
+    "tokens": ["I04579-7.", "Avl", "Limit:", "INR", "1,55,542.03.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "719.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "16-Jul-25", "on", "VODAFONE", "IDEA", "L.", "Avl", "Limit:", "INR", "1,55,664.25.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "202.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "15-Jul-25", "on", "RELIANCE", "RETAIL.", "Avl", "Limit:", "INR", "1,56,383.25.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "4,509.71", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "14-Jul-25", "on", "PAYPAL", "PAPCUSU.", "Avl", "Limit:", "INR", "1,56,585.25.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "1,183.00", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "12-Jul-25", "on", "IND-Amazon.", "Avl", "Limit:", "INR", "1,61,133.27.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD_TYPE", "B-CARD_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "B-CARD_NUMBER", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "2,706.20", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "12-Jul-25", "on", "PAYPAL", "PAPCUSU.", "Avl", "Limit:", "INR", "1,62,326.91.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["INR", "539.06", "spent", "using", "ICICI", "Bank", "Card", "XX9000", "on", "11-Jul-25", "on", "PAYPAL", "SAMSUNG.", "Avl", "Limit:", "INR", "1,65,033.11.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "SIP", "Purchase", "in", "Folio", "33126876/43", "under", "HDFC", "Large", "and", "Mid", "Cap", "Fund-Reg", "Gr", "for", "Rs.", "1,999.90", "has", "been", "processed", "at", "the", "NAV", "of", "344.393", "for", "5.807", "units", "and", "10-Jul-2025.", "Your", "smart", "statement", "https://shrtsms.in/HDFCMF/xASj3N.", "Enter", "your", "PAN", "as", "the", "password.", "Sincerely,", "HDFCMF"],
+    "labels": ["O", "O", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "B-BANK", "B-FUND", "I-FUND", "I-FUND", "I-FUND", "I-FUND", "I-FUND", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-NAV", "O", "B-UNITS", "O", "B-DATE", "O", "O", "B-LINK", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "SIP", "Purchase", "in", "Folio", "33126876/43", "under", "HDFC", "Focused", "Fund", "-", "Growth", "for", "Rs.", "1,999.90", "has", "been", "processed", "at", "the", "NAV", "of", "230.652", "for", "8.671", "units", "and", "10-Jul-2025.", "Your", "smart", "statement", "https://shrtsms.in/HDFCMF/xATkCb.", "Enter", "your", "PAN", "as", "the", "password.", "Sincerely,", "HDFCMF"],
+    "labels": ["O", "O", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "B-BANK", "B-FUND", "I-FUND", "I-FUND", "I-FUND", "I-FUND", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-NAV", "O", "B-UNITS", "O", "B-DATE", "O", "O", "B-LINK", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "monthly", "installment", "of", "Rs.", "21,000.00", "has", "been", "debited", "from", "a/c", "XXXXX298179", "on", "10/08/25", "at", "06:32", "and", "credited", "to", "RD", "a/c", "XXXXX580554.", "New", "bal", "is", "Rs.", "2,14,644.00.", "IDFC", "FIRST", "Bank"],
+    "labels": ["O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-TIME", "O", "B-TRANSACTION_TYPE", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "B-CURRENCY", "B-BALANCE", "B-BANK", "I-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Rs", "5,079.11", "spent", "on", "ICICI", "Bank", "Card", "XX9000", "on", "06-Aug-25", "at", "PAYPAL.", "Avl", "Lmt:", "Rs", "1,72,248.68.", "To", "dispute,", "call", "18002662/SMS", "BLOCK", "9000", "to", "9215676766.", "To", "convert", "this", "txn", "to", "EMI", "give", "a", "missed", "call", "on", "9537667667.", "Know", "more", "about", "EMI", "conversion", "at", "icici.co/DUvfZI0QFMW"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-LINK"]
+  },
+  {
+    "tokens": ["Your", "a/c", "no.", "TxnToAccount", "is", "credited", "by", "Rs.", "16365.00", "on", "02-Aug-25", "by", "a/c", "linked", "to", "mobile", "XXXXXXXXX931", "(IMPS", "Ref", "no", "521423374881", ").", "Team", "IDFC", "FIRST", "Bank"],
+    "labels": ["O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "B-MOBILE", "O", "B-TRANSACTION_TYPE", "O", "B-REFERENCE_NUMBER", "O", "O", "B-BANK", "I-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Monthly", "interest", "of", "Rs.886.00", "earned", "on", "your", "Savings", "A/c", "XX8179", "has", "been", "credited", "to", "your", "A/C", "on", "31/07/25.", "New", "bal:", "Rs.3,42,989.02.", "IDFC", "FIRST", "Bank"],
+    "labels": ["O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "O", "B-DATE", "O", "O", "B-CURRENCY", "B-BALANCE", "B-BANK", "I-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Payment", "of", "Rs", "43,759.47", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX9000", "through", "Bharat", "Bill", "Payment", "System", "on", "30-JUL-25."],
+    "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "B-BANK", "I-BANK", "O", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "B-DATE"]
+  },
+  {
+    "tokens": ["Rs", "9,999.00", "spent", "on", "ICICI", "Bank", "Card", "XX0005", "on", "02-Sep-25", "at", "Goibibo.", "Avl", "Lmt:", "Rs", "90,001.00.", "To", "dispute,", "call", "18002662/SMS", "BLOCK", "0005", "to", "9215676766.", "To", "convert"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Dear", "UPI", "user", "A/C", "X5744", "debited", "by", "71.0", "on", "date", "31Aug25", "trf", "to", "MANOHAR", "", "C", "T", "Refno", "329043782497.", "If", "not", "u?", "call", "1800111109.", "SBI"],
+    "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-AMOUNT", "O", "O", "B-DATE", "B-TRANSACTION_TYPE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-REFERENCE_NUMBER", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Payment", "of", "INR", "2,013.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "Account", "4xxx0005", "on", "29-AUG-25.Thank", "you."],
+    "labels": ["O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "O", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "Your", "Credit", "Card", "Payment", "of", "Rs.", "50.00", "has", "been", "received", "on", "26-Aug-25", "towards", "Card", "XX9000.", "Thank", "you,", "ICICI", "Bank."],
+    "labels": ["O", "O", "O", "B-CARD", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["INR", "24,635.00", "debited", "from", "A/c", "XXXXXX298179", "on", "15/07/25", "and", "credited", "to", "A/c", "XXXXXX558900.", "Call", "18004194332", "for", "any", "queries.", "IDFC", "FIRST", "Bank"],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-TRANSACTION_TYPE", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Rs", "73,769.37", "spent", "on", "ICICI", "Bank", "Card", "XX9000", "on", "04-Aug-25", "at", "Amazon.", "Avl", "Lmt:", "Rs", "98,728.42.", "To", "dispute,", "call", "18002662/SMS", "BLOCK", "9000", "to", "9215676766."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "B-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "B-CURRENCY", "B-BALANCE", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Your", "Credit", "Card", "Payment", "of", "Rs.", "34,266.53", "has", "been", "received", "on", "19-Jul-25", "towards", "Card", "XX9000.", "Thank", "you,", "ICICI", "Bank."],
+    "labels": ["O", "B-CARD", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Your", "SIP", "Purchase", "in", "Folio", "33126876/43", "under", "HDFC", "Flexi", "Cap", "Fund-Reg", "Gr", "for", "Rs.", "1,999.90", "has", "been", "processed", "at", "the", "NAV", "of", "1,573.234", "for", "1.272", "units", "and", "10-Jul-2025.", "Your", "smart", "statement", "https://shrtsms.in/HDFCMF/xAB7ce.", "Enter", "your", "PAN", "as", "the", "password.", "Sincerely,", "HDFCMF"],
+    "labels": ["O", "O", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "B-BANK", "B-FUND", "I-FUND", "I-FUND", "I-FUND", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-NAV", "O", "B-UNITS", "O", "B-DATE", "O", "O", "B-LINK", "O", "O", "O", "O", "B-BANK"]
+  },
+  {
+    "tokens": ["Your", "Credit", "Card", "Payment", "of", "Rs.", "9,999.00", "has", "been", "received", "on", "29-Aug-25", "towards", "Card", "XX0005.", "Thank", "you,", "ICICI", "Bank."],
+    "labels": ["O", "B-CARD", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "B-BANK", "I-BANK"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "your", "SIP", "of", "Rs.", "5,000.00", "for", "Folio", "12345678/90", "in", "HDFC", "Equity", "Fund", "has", "been", "processed", "successfully", "on", "12-Jul-25."],
+    "labels": ["O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-REFERENCE_NUMBER", "O", "B-BANK", "B-FUND", "I-FUND", "O", "O", "O", "O", "B-DATE"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "we", "wish", "to", "inform", "you", "that", "your", "loan", "EMI", "of", "Rs.", "12,500.00", "has", "been", "debited", "from", "your", "A/c", "XXXXXX123456", "on", "05-Aug-25."],
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE"]
+  },
+  {
+    "tokens": ["Rs", "1,200.00", "debited", "from", "your", "account", "XX9988", "on", "09-Aug-25", "towards", "Electricity", "Bill", "Payment."],
+    "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE"]
+  },
+  {
+    "tokens": ["Payment", "of", "Rs.", "7,500.00", "has", "been", "credited", "to", "your", "A/c", "XXXXXX876543", "on", "20-Jul-25", "via", "NEFT."],
+    "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-TRANSACTION_TYPE"]
+  },
+  {
+    "tokens": ["Dear", "Customer,", "your", "FD", "interest", "of", "Rs.", "2,345.67", "has", "been", "credited", "to", "A/c", "XXXXXX445566", "on", "28-Aug-25."],
+    "labels": ["O", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE"]
+  },
+    {
+        "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "55.00", "on", "05-Sep-25;", "MANJULA", "BAI", "M", "credited.", "UPI:423460931850.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+        "labels": ["O","B-BANK","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+        "tokens": ["Dear", "Customer,", "Payment", "of", "INR", "10,306.82", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "Account", "4xxx1027", "on", "04-SEP-25.Thank", "you."],
+        "labels": ["O","O","O","O","B-CURRENCY","B-AMOUNT","O","O","O","O","O","B-BANK","O","O","O","O","B-ACCOUNT_NO","O","B-DATE","O"]
+    },
+    {
+        "tokens": ["ICICI", "Bank", "Acc", "XX436", "debited", "Rs.", "10,306.82", "on", "04-Sep-25", "InfoBIL*001071637.Avl", "Bal", "Rs.", "28,810.58.To", "dispute", "call", "18002662", "or", "SMS", "BLOCK", "436", "to", "9215676766"],
+        "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","B-AMOUNT","O","B-DATE","B-TRANSACTION_ID","O","O","B-AMOUNT","O","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+        "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "50.00", "on", "04-Sep-25;", "Princy", "Foods", "credited.", "UPI:574715470160.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+        "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+        "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "164156160774", "on", "04/09/25", "22:14.Not", "you?", "Report", "at", "https://hdfcbk.io/HDFCBK/s/lvveZNe9", "or", "SMS", "BLOCK", "PCC", "<last", "4", "digits>", "to", "7039000247"],
+        "labels": ["O","O","B-AMOUNT","O","B-BANK","O","O","O","O","B-NAME","O","O","B-TRANSACTION_ID","O","B-DATE","O","O","O","O","B-URL","O","O","O","O","O","O","O","B-PHONE"]
+    },
+    {
+        "tokens": ["Your", "A/C", "XXXXX008428", "is", "credited", "with", "INR", "2,50,000.00", "on", "04/09/25", "21:01.", "Your", "new", "balance", "is", "INR", "5,52,631.00.", "Team", "IDFC", "FIRST", "Bank"],
+        "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+        "tokens": ["ICICI", "Bank", "Credit", "Card", "XX1027", "Statement", "is", "sent", "to", "gv**********am@gmail.com.", "Total", "of", "Rs", "6,497.00", "or", "minimum", "of", "Rs", "330.00", "is", "due", "by", "15-SEP-25."],
+        "labels": ["B-BANK","O","O","O","B-ACCOUNT_NO","O","O","O","O","B-EMAIL","O","O","O","B-AMOUNT","O","O","O","O","B-AMOUNT","O","O","O","B-DATE"]
+    },
+    {
+        "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "2250.00", "on", "04-Sep-25", "from", "SIDDAMREDDY", "RAV.", "UPI:561302878213-ICICI", "Bank."],
+        "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+        "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "2750.00", "on", "04-Sep-25", "from", "SIDDAMREDDY", "RAV.", "UPI:561353468816-ICICI", "Bank."],
+        "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+        "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "2750.00", "on", "04-Sep-25;", "Directorate", "Of", "credited.", "UPI:679752079135.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+        "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+        "tokens": ["Your", "A/C", "XXXXX008428", "is", "credited", "with", "INR", "100.00", "on", "03/09/25", "20:44.", "Your", "new", "balance", "is", "INR", "52,630.00.", "Team", "IDFC", "FIRST", "Bank"],
+        "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "200.00", "on", "03-Sep-25;", "Sri", "Vasavi", "Kirana", "credited.", "UPI:569358097563.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "2800.00", "on", "03-Sep-25", "from", "NAGARJU", "DOND.", "UPI:562003987094-ICICI", "Bank."],
+      "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1800.00", "on", "03-Sep-25;", "NAGARJU", "DOND", "credited.", "UPI:679511917019.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "03/09/25", "12:58.", "Your", "new", "balance", "is", "INR", "2,502,530.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "30.00", "on", "03-Sep-25;", "Naresh", "Chaudary", "credited.", "UPI:575529889993.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "1500.00", "on", "02-Sep-25", "from", "SRINIVAS", "MEDA.", "UPI:569223276886-ICICI", "Bank."],
+      "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "600.00", "on", "02-Sep-25;", "MEHERUNNISSA", "credited.", "UPI:574714232157.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "3500.00", "on", "02-Sep-25", "from", "DASARI", "SOM.", "UPI:568913101178-ICICI", "Bank."],
+      "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "3500.00", "on", "02-Sep-25;", "DASARI", "SOMA", "SEKHAR", "credited.", "UPI:574039408703.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "600.00", "on", "02-Sep-25", "from", "HASEENA", "BEG.", "UPI:569205587293-ICICI", "Bank."],
+      "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+      "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "600.00", "on", "02-Sep-25", "from", "SHAIK", "MEHERUNNISA.", "UPI:569212157725-ICICI", "Bank."],
+      "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "700.00", "on", "02-Sep-25;", "SHAIK", "MAHABOOB", "credited.", "UPI:574041173498.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Dear", "Customer,", "Acct", "XX436", "is", "credited", "with", "Rs", "700.00", "on", "02-Sep-25", "from", "SHAIK", "MAHABOOB.", "UPI:569200620494-ICICI", "Bank."],
+      "labels": ["O","O","O","B-ACCOUNT_NO","O","O","O","O","B-AMOUNT","O","B-DATE","O","B-NAME","I-NAME","B-TRANSACTION_ID","B-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "600.00", "on", "02-Sep-25;", "HASEENA", "BEGUM", "credited.", "UPI:574034305542.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "600.00", "on", "02-Sep-25;", "SHAIK", "MEHERUNNISA", "credited.", "UPI:574713610601.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "10:08.", "Your", "new", "balance", "is", "INR", "2,502,521.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:51.", "Your", "new", "balance", "is", "INR", "2,502,530.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1500.00", "on", "02-Sep-25;", "SRINIVAS", "MEDA", "credited.", "UPI:574711024935.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:37.", "Your", "new", "balance", "is", "INR", "2,502,539.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1800.00", "on", "02-Sep-25;", "NAGARJU", "DOND", "credited.", "UPI:574719268580.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:30.", "Your", "new", "balance", "is", "INR", "2,502,548.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:20.", "Your", "new", "balance", "is", "INR", "2,502,557.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "200.00", "on", "02-Sep-25;", "ARUNA", "MEDA", "credited.", "UPI:574721464354.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:17.", "Your", "new", "balance", "is", "INR", "2,502,566.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "600.00", "on", "02-Sep-25;", "HASEENA", "BEGUM", "credited.", "UPI:574717495073.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:12.", "Your", "new", "balance", "is", "INR", "2,502,575.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "800.00", "on", "02-Sep-25;", "SHAIK", "MAHABOOB", "credited.", "UPI:574716926385.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:09.", "Your", "new", "balance", "is", "INR", "2,502,584.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1800.00", "on", "02-Sep-25;", "BODIGADDA", "SURESH", "credited.", "UPI:574715255554.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK","O","O","B-ACCOUNT_NO","O","O","O","B-AMOUNT","O","B-DATE","B-NAME","I-NAME","O","B-TRANSACTION_ID","O","B-PHONE","O","O","O","B-ACCOUNT_NO","O","B-PHONE"]
+    },
+    {
+      "tokens": ["Your", "A/C", "XXXXX008428", "is", "debited", "with", "INR", "9.00", "on", "02/09/25", "09:04.", "Your", "new", "balance", "is", "INR", "2,502,593.00.", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O","O","B-ACCOUNT_NO","O","O","O","B-CURRENCY","B-AMOUNT","O","B-DATE","O","O","O","O","O","B-CURRENCY","B-AMOUNT","O","B-BANK","I-BANK","I-BANK"]
+    },
+    {
+      "tokens": ["Your", "order", "252606069001737", "for", "Rs.76.5", "booked", "on", "2025-08-29", "08:31:59.0", "is", "delivered.", "Thank", "u", "for", "choosing", "MedPlus.", "Call", "6302400543", "for", "queries."],
+      "labels": ["O", "O", "B-REFERENCE_NUMBER", "O", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-DATE", "I-DATE", "O", "O", "O", "O", "O", "O", "B-MERCHANT", "O", "B-CONTACT", "O", "O"]
+    },
+    {
+      "tokens": ["Your", "a/c", "no.", "TxnToAccount", "is", "credited", "by", "Rs.", "10.00", "on", "03-Sep-25", "by", "a/c", "linked", "to", "mobile", "XXXXXXXXX014", "(IMPS", "Ref", "no", "524608681155", ").", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "O", "B-BANK", "I-BANK", "I-BANK"]
+    },
+    {
+      "tokens": ["Your", "a/c", "no.", "TxnToAccount", "is", "credited", "by", "Rs.", "10.00", "on", "03-Sep-25", "by", "a/c", "linked", "to", "mobile", "XXXXXXXXX995", "(IMPS", "Ref", "no", "524607118931", ").", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "O", "B-BANK", "I-BANK", "I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "195.00", "on", "03-Sep-25;", "MANJULA", "BAI", "M", "credited.", "UPI:543722738897.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "B-CONTACT", "O", "O", "O", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["Your", "a/c", "no.", "TxnToAccount", "is", "credited", "by", "Rs.", "10.00", "on", "02-Sep-25", "by", "a/c", "linked", "to", "mobile", "XXXXXXXXX491", "(IMPS", "Ref", "no", "524521047313", ").", "Team", "IDFC", "FIRST", "Bank"],
+      "labels": ["O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "O", "O", "B-REFERENCE_NUMBER", "O", "O", "B-BANK", "I-BANK", "I-BANK"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "286755426703", "on", "02/09/25", "20:21.Not", "you?", "Report", "at", "https://hdfcbk.io/HDFCBK/s/ppq6jJkl", "or", "SMS", "BLOCK", "PCC", "<last", "4", "digits>", "to", "7039000247"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-BANK", "O", "O", "B-MERCHANT", "O", "O", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE", "O", "O", "O", "B-LINK", "O", "O", "O", "O", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "68.00", "on", "02-Sep-25;", "MANJULA", "BAI", "M", "credited.", "UPI:784932685517.", "Call", "18002662", "for", "dispute.", "SMS", "BLOCK", "436", "to", "9215676766."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER", "O", "B-CONTACT", "O", "O", "O", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["INR", "6,000.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Sep-25", "on", "SHREE", "SAI", "GOLD", ".", "Avl", "Limit:", "INR", "89,693.18.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "1027", "to", "9215676766."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "O", "O", "O", "O", "O", "B-CONTACT", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "053153267078", "on", "01/09/25", "20:26.Not", "you?", "Report", "at", "https://hdfcbk.io/HDFCBK/s/XVMMbL6M", "or", "SMS", "BLOCK", "PCC", "<last", "4", "digits>", "to", "7039000247"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-BANK", "O", "O", "B-MERCHANT", "O", "O", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE", "O", "O", "O", "B-LINK", "O", "O", "O", "O", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "100.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q993263600@ybl", "by", "UPI", "632537120936", "on", "01/09/25", "19:27.Not", "you?", "Report", "at", "https://hdfcbk.io/HDFCBK/s/wWqq0mnL", "or", "SMS", "BLOCK", "PCC", "<last", "4", "digits>", "to", "7039000247"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-BANK", "O", "O", "B-MERCHANT", "O", "O", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE", "O", "O", "O", "B-LINK", "O", "O", "O", "O", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["This", "is", "a", "confirmation", "for", "receipt", "of", "Rs.883.82", "towards", "ACT", "Fibernet", "A/c", "No", "102679680588."],
+      "labels": ["O", "O", "O", "O", "O", "O", "O", "B-AMOUNT", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-ACCOUNT_NUMBER"]
+    },
+    {
+      "tokens": ["INR", "883.82", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Sep-25", "on", "AMAZON", "PAY", "IN", "R.", "Avl", "Limit:", "INR", "95,693.18.", "If", "not", "you,", "call", "1800", "2662/SMS", "BLOCK", "1027", "to", "9215676766."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "O", "O", "O", "O", "O", "B-CONTACT", "O", "O", "O", "B-CONTACT"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "6,497.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1027", "through", "Bharat", "Bill", "Payment", "System", "on", "29-AUG-25."],
+      "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "I-BANK", "I-BANK", "B-ACCOUNT_NUMBER", "O", "B-PLATFORM", "I-PLATFORM", "I-PLATFORM", "I-PLATFORM", "B-DATE"]
+    },
+    {
+      "tokens": ["Thank", "you!", "We", "have", "received", "the", "payment", "of", "Rs", "48559.00,", "for", "your", "policy", "no", "D2381768.", "Regards,", "ICICI", "Prudential"],
+      "labels": ["O", "O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-POLICY", "O", "B-POLICY_NUMBER", "O", "B-BANK", "I-BANK"]
+    },
+    {
+      "tokens": ["ICICI", "PRUDENTIAL", "LIFE", "INSURANCE", "has", "requested", "money", "from", "you", "on", "PhonePe.Rs.48559", "will", "be", "debited", "from", "your", "account", "on", "approving", "the", "request"],
+      "labels": ["B-BANK", "I-BANK", "I-BANK", "I-BANK", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "O", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "36.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q443797966@ybl", "by", "UPI", "596039408058", "on", "29/08/25", "17:34."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Update!", "INR", "2,13,252.00", "deposited", "in", "HDFC", "Bank", "A/c", "XX6011", "on", "29-AUG-25", "for", "SALARYFORTHEMONTHOFAUG2025JIOPLATFORMSLI.", "Avl", "bal", "INR", "5,69,631.62."],
+      "labels": ["O", "B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-DESCRIPTION", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "320.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "medplusseegehallimed.60983723@hdfcbank", "by", "UPI", "329239966069", "on", "29/08/25", "08:32."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Dear", "XXXXXXXX3943,", "your", "passbook", "balance", "against", "THVSH**************6016", "is", "Rs.", "37,26,919/-.", "Contribution", "of", "Rs.", "30,674/-", "for", "due", "month", "Aug-25", "has", "been", "received."],
+      "labels": ["O", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "B-POLICY", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-DATE", "B-DATE", "O", "O", "B-TRANSACTION_TYPE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "207500779245", "on", "28/08/25", "20:43."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q320921038@ybl", "by", "UPI", "699614504909", "on", "27/08/25", "08:31."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "400.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q266334046@ybl", "by", "UPI", "177645025055", "on", "27/08/25", "08:22."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "780208190934", "on", "26/08/25", "19:02."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "95.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytm.s1d5ahr@pty", "by", "UPI", "534537915903", "on", "26/08/25", "13:33."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "50.00", "on", "26-Aug-25;", "UDUPI", "UPAHAR", "credited.", "UPI:674282216586."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "692199113074", "on", "25/08/25", "21:02."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q993263600@ybl", "by", "UPI", "564824914926", "on", "25/08/25", "19:26."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "70.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqrhwbmo6g575@paytm", "by", "UPI", "466959710065", "on", "25/08/25", "19:17."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "56.00", "on", "25-Aug-25;", "MANJULA", "BAI", "M", "credited.", "UPI:293425568338."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER"]
+    },
+    {
+      "tokens": ["INR", "1,246.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "24-Aug-25", "on", "SRI", "VENKATESHWA.", "Avl", "Limit:", "INR", "93,503.00."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "54.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytm.s1cngkc@pty", "by", "UPI", "644867343112", "on", "24/08/25", "16:12."],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PLATFORM", "B-REFERENCE_NUMBER", "O", "B-DATE", "I-DATE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "250.00", "on", "24-Aug-25;", "Ejjigiri", "Rakesh", "credited.", "UPI:246788224791."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER"]
+    },
+    {
+      "tokens": ["INR", "241.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "24-Aug-25", "on", "IND*Amazon.in", "-", ".", "Avl", "Limit:", "INR", "94,749.00."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "4000.00", "on", "24-Aug-25;", "MAANVI", "MOTOR", "DR", "credited.", "UPI:268783957898."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "215.00", "on", "23-Aug-25;", "RAGAVENDRA", "KULA", "credited.", "UPI:049600326948."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "B-REFERENCE_NUMBER"]
+    },
+    {
+      "tokens": ["INR", "2,000.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "23-Aug-25", "on", "NIMMI", "DENTAL.", "Avl", "Limit:", "INR", "94,990.00."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "1,750.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "23-Aug-25", "on", "Directorate", "Of", ".", "Avl", "Limit:", "INR", "96,990.00."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "54.00", "on", "23-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:136375943637"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "40.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q065384341@ybl", "by", "UPI", "939913243590", "on", "22/08/25", "19:46"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "110.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "bharatpe9d0n7g3l0i170643@yesbankltd", "by", "UPI", "729973019763", "on", "22/08/25", "19:44"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "083516085322", "on", "22/08/25", "19:38"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "83.00", "on", "22-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:639422960357"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["HDFC", "Bank", "Credit", "Card", "XX2568", "Statement", ":", "Total", "due", "amt", ":", "Rs.0.00", "Min", "due", "amt", ":", "Rs.0.00", "Due", "by", ":", "Nil", "."],
+      "labels": ["B-BANK", "I-BANK", "I-CARD", "I-CARD", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "B-AMOUNT", "O", "O", "O", "O", "B-AMOUNT", "O", "O", "O", "O", "O"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "100.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "bharatpe9b0d7n3f0n212444@yesbankltd", "by", "UPI", "777724486967", "on", "21/08/25", "09:16"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "83.00", "on", "21-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:836237244486"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "225.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q125200299@ybl", "by", "UPI", "781723256762", "on", "20/08/25", "20:41"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "100.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytm.s1buwsx@pty", "by", "UPI", "860788133750", "on", "20/08/25", "20:37"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q828310443@ybl", "by", "UPI", "086874778988", "on", "20/08/25", "20:33"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "250.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q114641906@ybl", "by", "UPI", "884375917957", "on", "20/08/25", "20:30"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acc", "XX436", "debited", "Rs.", "1,000.00", "on", "20-Aug-25", "NFS*CASH", "WDL*", ".", "Avb", "Bal", "Rs.", "57,257.40", ".", "To", "dispute", "Call", "18002662", "or", "SMS", "BLOCK", "436", "to", "9215676766"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-PHONE", "O", "O", "O", "B-CODE", "O", "B-PHONE"]
+    },
+    {
+      "tokens": ["Withdrawn", "Rs.5000", "From", "HDFC", "Bank", "Card", "x2230", "At", "+RELIANCE", "TRENDS", "On", "2025-08-20:11:47:49", "Bal", "Rs.356379.62"],
+      "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-MERCHANT", "I-MERCHANT", "O", "B-DATE_TIME", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["TXN", "DECLINED", ":", "Rs.5000.00", "on", "20-08-25", "at", "11:43", "on", "HDFC", "Bank", "Debit", "Card", "xx2230", ".", "Reason", ":", "ATM", "Withdrawal", "disabled", "."],
+      "labels": ["O", "B-STATUS", "O", "B-AMOUNT", "O", "B-DATE", "O", "B-TIME", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "B-ACCOUNT_NUMBER", "O", "O", "O", "B-MERCHANT", "I-MERCHANT", "O", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "130.00", "on", "20-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:943723017614"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["PRAN", "XX1263", ":", "Units", "for", "Arrear", "contribution", "of", "Rs.15,410.00", "credited", "with", "NAV", "of", "18/08/25", "-", "Protean"],
+      "labels": ["O", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-DATE", "O", "B-MERCHANT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "144.00", "on", "19-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:839163259833"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "508783778087", "on", "18/08/25", "21:00"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["INR", "503.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "18-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit", ":", "INR", "98,740.00"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "120.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "9964141135@fbl", "by", "UPI", "364236029333", "on", "18/08/25", "09:44"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acc", "XX436", "debited", "Rs.", "8,027.75", "on", "18-Aug-25", "InfoBIL*001063793", ".", "Avl", "Bal", "Rs.", "58,531.40"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "757.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "18-Aug-25", "on", "IND*Amazon.in", "-", ".", "Avl", "Limit", ":", "INR", "91,215.25"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "56.00", "on", "18-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:896673448692"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "25.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytm.s18904m@pty", "by", "UPI", "197419560144", "on", "17/08/25", "20:02"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "2030.38", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "2305852777609-01@jiopay", "by", "UPI", "602180511308", "on", "17/08/25", "09:32"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Rs", "5,577.00", "spent", "on", "ICICI", "Bank", "Card", "XX1027", "on", "16-Aug-25", "at", "SRI", "VENKATESHWA", ".", "Avl", "Lmt", ":", "Rs", "91,972.25"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["WWW", "OLACABS", "COM", "refund", "of", "Rs", "1.00", "credited", "to", "ICICI", "Bank", "Credit", "Card", "XX1027", "on", "15-AUG-25", ".", "Revised", "total", "due", "Rs", "0", ",", "minimum", "due", "Rs", ".00"],
+      "labels": ["B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "160.00", "on", "15-Aug-25", ";", "ISHTIYAQ", "AHMED", "credited", ".", "UPI:818839133159"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["INR", "264.79", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "15-Aug-25", "on", "UBER", "INDIA", "SYST", ".", "Avl", "Limit", ":", "INR", "97,284.46"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "1,841.40", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "15-Aug-25", "on", "Inf*BITLA", "SOFTW", ".", "Avl", "Limit", ":", "INR", "97,548.25"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1,700.00", "on", "15-Aug-25", ";", "SOMASHEKAR", "credited", ".", "UPI:240834396130"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["INR", "2.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "14-Aug-25", "on", "UBER", "INDIA", "SYST", ".", "Avl", "Limit", ":", "INR", "99,387.65"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "1.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "14-Aug-25", "on", "WWW", "OLACABS", "COM", ".", "Avl", "Limit", ":", "INR", "99,389.65"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytm.s1kz4ab@pty", "by", "UPI", "176201442504", "on", "14/08/25", "19:16"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "83.00", "on", "14-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:902574493916"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "6.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "ka57f3646@cnrb", "by", "UPI", "404953110774", "on", "13/08/25", "20:45"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["INR", "855.50", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "13-Aug-25", "on", "IND*Amazon.in", "-", ".", "Avl", "Limit", ":", "INR", "99,390.65"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr6ekdqa@ptys", "by", "UPI", "383799817720", "on", "12/08/25", "20:18"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "240.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q193027134@ybl", "by", "UPI", "784000227579", "on", "12/08/25", "20:13"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "130.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "969469477322", "on", "12/08/25", "19:57"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "73.00", "on", "12-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:864945760519"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "500.00", "on", "11-Aug-25", ";", "PRAVEEN", "J", "credited", ".", "UPI:058529515894"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "83.00", "on", "14-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:902574493916"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "6.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "ka57f3646@cnrb", "by", "UPI", "404953110774", "on", "13/08/25", "20:45"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["INR", "855.50", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "13-Aug-25", "on", "IND*Amazon.in", "-", ".", "Avl", "Limit", ":", "INR", "99,390.65"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr6ekdqa@ptys", "by", "UPI", "383799817720", "on", "12/08/25", "20:18"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "240.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q193027134@ybl", "by", "UPI", "784000227579", "on", "12/08/25", "20:13"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "130.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "969469477322", "on", "12/08/25", "19:57"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "73.00", "on", "12-Aug-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI:864945760519"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "500.00", "on", "11-Aug-25", ";", "PRAVEEN", "J", "credited", ".", "UPI:058529515894"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-PAYEE", "I-PAYEE", "O", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "120.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "bharatpe.90068456733@fbpe", "by", "UPI", "122643913540", "on", "08/08/25", "20:31"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O",
+      "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "90.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr63rlc1@ptys", "by", "UPI", "340347990936", "on", "08/08/25", "16:24"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "100.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q560489434@ybl", "by", "UPI", "423066126017", "on", "08/08/25", "16:21"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "105.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr63rlbq@ptys", "by", "UPI", "835919614162", "on", "04/08/25", "07:41"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "9,700.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1027", "through", "Bharat", "Bill", "Payment", "System", "on", "04-AUG-25"],
+      "labels": ["B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-PAYMENT_TYPE", "I-PAYMENT_TYPE", "I-PAYMENT_TYPE", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["Dear", "Customer", ",", "Acct", "XX436", "is", "credited", "with", "Rs", "40000.00", "on", "04-Aug-25", "from", "G", "VENKATA", "SUBRA", ".", "UPI:840980817770-ICICI", "Bank", "."],
+      "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "B-UPI", "B-BANK", "O"]
+    },
+    {
+      "tokens": ["INR", "883.82", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "04-Aug-25", "on", "ATRIA", "CONVERGEN", ".", "Avl", "Limit:", "INR", "90,217.08"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "511.28", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "03-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "91,100.90"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "629.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "03-Aug-25", "on", "IND*Amazon.in", "-", ".", "Avl", "Limit:", "INR", "91,612.18"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "366.72", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "03-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "92,241.18"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "190.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "bharatpe9g0o7x3g0r194772@yesbankltd", "by", "UPI", "773021520942", "on", "03/08/25", "19:41"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "40.00", "on", "03-Aug-25", ";", "Mr", "Vishwanath", "R", "credited", ".", "UPI:747478196241"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "60.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytm.s1btj90@pty", "by", "UPI", "938669874706", "on", "03/08/25", "19:19"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "100.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "bharatpe90726260432@yesbankltd", "by", "UPI", "233848091003", "on", "03/08/25", "19:12"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["IND*AMAZON", "refund", "of", "Rs", "134.00", "credited", "to", "ICICI", "Bank", "Credit", "Card", "XX1027", "on", "02-AUG-25", "."],
+      "labels": ["B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "55.00", "on", "02-Aug-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:256726386530"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "30.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "vyapar.170966700016@hdfcbank", "by", "UPI", "229336941271", "on", "01/08/25", "20:22"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["INR", "134.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "92,473.90"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "334.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Aug-25", "on", "IND*Amazon.in", "-", ".", "Avl", "Limit:", "INR", "92,607.90"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "164.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "92,941.90"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "310.10", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "93,105.90"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "134.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Aug-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "93,416.00"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "55.00", "on", "01-Aug-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:455601874314"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1800.00", "on", "01-Aug-25", ";", "ARUNA", "RAJALAKSH", "credited", ".", "UPI:450138291284"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["INR", "6,000.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "01-Aug-25", "on", "SHREE", "SAI", "GOLD", ".", "Avl", "Limit:", "INR", "93,550.00"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "501.00", "on", "01-Aug-25", ";", "SHRI", "EDAMURI", "GA", "credited", ".", "UPI:947920773631"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XXX436", "debited", "with", "INR", "1400.00", "on", "01-Aug-25", ".", "Acct", "XXX501", "credited", ".", "UPI:741404677823"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "135.00", "on", "31-Jul-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:270124025993"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["INR", "300.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "30-Jul-25", "on", "NEXGEN", "EDUCATIO", ".", "Avl", "Limit:", "INR", "99,550.00"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "150.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "30-Jul-25", "on", "NEXGEN", "EDUCATIO", ".", "Avl", "Limit:", "INR", "99,850.00"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "604.07", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1027", "through", "Bharat", "Bill", "Payment", "System", "on", "30-JUL-25"],
+      "labels": ["B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-PAYMENT_PROVIDER", "I-PAYMENT_PROVIDER", "I-PAYMENT_PROVIDER", "I-PAYMENT_PROVIDER", "B-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "128.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr6enyna@ptys", "by", "UPI", "592080713484", "on", "29/07/25", "20:26"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "50.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q018196350@ybl", "by", "UPI", "656809456929", "on", "29/07/25", "20:16"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "60.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q307639052@ybl", "by", "UPI", "268443129093", "on", "29/07/25", "20:15"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "55.00", "on", "29-Jul-25", ";", "M", "MANJULA", "BAI", "credited", ".", "UPI:170887967304"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "100.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "q337718960@ybl", "by", "UPI", "626311771670", "on", "28/07/25", "20:59"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["PRAN", "XX1263", ":", "Units", "for", "Voluntary", "contribution", "of", "Rs.10,000.00", "credited", "with", "NAV", "of", "25/07/25"],
+      "labels": ["B-IDENTIFIER", "I-IDENTIFIER", "O", "O", "O", "O", "O", "O", "B-CURRENCY", "B-TRANSACTION_TYPE", "O", "B-FINANCIAL", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["INR", "604.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "27-Jul-25", "on", "IND*Amazon", ".", "Avl", "Limit:", "INR", "99,395.93"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "740.05", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "2306663729084-01@jiopay", "by", "UPI", "581722897807", "on", "27/07/25", "12:33"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "2000.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr1nkgqlq8rl@paytm", "by", "UPI", "106089890818", "on", "26/07/25", "18:40"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "150.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "bharatpe9g0p7z2g9i408971@yesbankltd", "by", "UPI", "839816762370", "on", "26/07/25", "14:51"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Credit", "Card", "XX1027", "credited/refunded", "with", "Rs", "2.00", "on", "24-JUL-25"],
+      "labels": ["B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "55.00", "on", "31-Jul-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:270124025993"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Dear", "Parent", ",", "Thank", "you", "for", "the", "payment", "!", "This", "is", "to", "confirm", "that", "a", "Payment", "of", "Rs", "150.00", "was", "received", "against", "Admission", "No", "SCS1141847", "with", "receipt", "No", "***MX0LI", ".", "Sri", "Chaitanya"],
+      "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-IDENTIFIER", "O", "O", "O", "B-RECEIPT_NUMBER", "O", "B-INSTITUTION", "I-INSTITUTION"]
+    },
+    {
+      "tokens": ["INR", "300.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "30-Jul-25", "on", "NEXGEN", "EDUCATIO", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O"]
+    },
+    {
+      "tokens": ["INR", "150.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "30-Jul-25", "on", "NEXGEN", "EDUCATIO", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "604.07", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1027", "through", "Bharat", "Bill", "Payment", "System", "on", "30-JUL-25"],
+      "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "B-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "128.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr6enyna@ptys", "by", "UPI", "592080713484", "on", "29/07/25", "20:26"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "I-CARD", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Credit", "Card", "XX1027", "credited/refunded", "with", "Rs", "2.00", "on", "24-JUL-25"],
+      "labels": ["B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "500.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1027", "through", "Bharat", "Bill", "Payment", "System", "on", "23-JUL-25"],
+      "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["INR", "2.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "23-Jul-25", "on", "IND*Amazon", ".", "Avl", "Limit", ":", "INR", "89,841.93", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O"]
+    },
+    {
+      "tokens": ["Dear", "Customer", ",", "we", "have", "changed", "the", "spend", "limit", "on", "your", "ICICI", "Bank", "Credit", "Card", "4315X1027", "from", "INR", "200000", "to", "INR", "100000", "on", "2025-07-23"],
+      "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "60.00", "on", "22-Jul-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:515293872651"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Spent", "Rs.15000", "On", "HDFC", "Bank", "Card", "2568", "At", "NEXGEN", "EDUCATIONAL", "TRUST", "On", "2025-07-22:07:50:25"],
+      "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "412.00", "on", "21-Jul-25", ";", "KARNATAKA", "DEPAR", "credited", ".", "UPI:966930130228"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["HDFC", "Bank", ":", "Your", "UPI", "transaction", "of", "3705.00", "has", "been", "reversed", "in", "your", "account", "due", "to", "technical", "problem", "(", "UPI", "Ref", "no.", "788064932794", ")"],
+      "labels": ["B-BANK", "I-BANK", "O", "O", "B-PAYMENT_TYPE", "O", "O", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-PAYMENT_TYPE", "O", "O", "B-UPI", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "135.00", "on", "31-Jul-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:270124025993"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Dear", "Parent", ",", "Thank", "you", "for", "the", "payment", "!", "This", "is", "to", "confirm", "that", "a", "Payment", "of", "Rs", "150.00", "was", "received", "against", "Admission", "No", "SCS1141847", "with", "receipt", "No", "***MX0LI", ".", "Sri", "Chaitanya"],
+      "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "B-ADMISSION_NO", "O", "O", "O", "B-RECEIPT_NO", "O", "O", "O"]
+    },
+    {
+      "tokens": ["INR", "300.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "30-Jul-25", "on", "NEXGEN", "EDUCA", "TION", ".", "Avl", "Limit", ":", "INR", "99,550.00", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O"]
+    },
+    {
+      "tokens": ["INR", "150.00", "spent", "using", "ICICI", "Bank", "Card", "XX1027", "on", "30-Jul-25", "on", "NEXGEN", "EDUC", "ATION", ".", "Avl", "Limit", ":", "INR", "99,850.00", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O"]
+    },
+    {
+      "tokens": ["9123583720", "(Geetanzali)", "is", "looking", "to", "rent", "Rs.", "6,000", "Commercial", "Shops", "in", "KR", "Puram", "Bangalore", "East", ".", "99Acres"],
+      "labels": ["B-PHONE_NUMBER", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "B-PROPERTY_TYPE", "I-PROPERTY_TYPE", "O", "B-LOCATION", "I-LOCATION", "I-LOCATION", "I-LOCATION", "O", "B-PORTAL"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "604.07", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1027", "through", "Bharat", "Bill", "Payment", "System", "on", "30-JUL-25"],
+      "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "I-PAYMENT_SYSTEM", "O", "B-DATE"]
+    },
+    {
+      "tokens": ["Spent", "Rs", "128.00", "On", "HDFC", "Bank", "PIXEL", "Card", "at", "paytmqr6enyna@ptys", "by", "UPI", "592080713484", "on", "29/07/25", "20:26", ".", "Not", "you", "?", "Report", "at", "https://hdfcbk.io/HDFCBK/s/V2B7EAj8", "or", "SMS", "BLOCK", "PCC", "<last", "4", "digits>", "to", "7039000247"],
+      "labels": ["B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "O", "B-MERCHANT", "O", "B-PAYMENT_TYPE", "B-UPI", "O", "B-DATE", "B-TIME", "O", "O", "O", "O", "O", "B-URL", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+      "tokens": ["Transaction", "(", "No.KA250721V6501874", ")", "has", "been", "failed", ",", "Please", "initiate", "new", "transaction", ".", "MoRTH"],
+      "labels": ["O", "O", "B-TRANSACTION_ID", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ORGANIZATION"]
+    },
+    {
+      "tokens": ["Dear", "Customer", ",", "your", "ICICI", "Bank", "Credit", "Card", "XX1019", "has", "been", "blocked", "on", "21-Jul-25", ".", "If", "you", "need", "a", "replacement", "card", ",", "please", "call", "our", "Customer", "Care", "."],
+      "labels": ["O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "O", "O", "O", "B-DATE", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "80.00", "on", "21-Jul-25", ";", "K", "V", "ESHWARA", "RAO", "credited", ".", "UPI:661586709220"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "50.00", "on", "20-Jul-25", ";", "Shivanagouda", "credited", ".", "UPI:655683475632"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "135.00", "on", "20-Jul-25", ";", "N", "VENUGOPAL", "GOW", "credited", ".", "UPI:680556059699"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "200.00", "on", "19-Jul-25", ";", "MOHAMED", "SAHEER", "credited", ".", "UPI:031058252458"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "340.00", "on", "19-Jul-25", ";", "ASWATHY", "ENTERPR", "credited", ".", "UPI:296050524129"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["PRAN", "XX1263", ":", "Units", "for", "(", "JUN-2025", ")", "contribution", "of", "Rs.15,410.00", "credited", "with", "NAV", "of", "17/07/25", "-", "Protean"],
+      "labels": ["O", "B-PRAN", "O", "O", "O", "O", "B-DATE_RANGE", "O", "O", "O", "B-CURRENCY_AMOUNT", "B-TRANSACTION_TYPE", "O", "O", "O", "B-DATE", "O", "B-ORGANIZATION"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "40.00", "on", "15-Jul-25", ";", "TAUHEED", "credited", ".", "UPI:741109706117"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "100.00", "on", "15-Jul-25", ";", "RAGAVENDRA", "KULA", "credited", ".", "UPI:384364858029"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "120.00", "on", "14-Jul-25", ";", "Mr", "S", "Sharu", "Khan", "credited", ".", "UPI:951374010509"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "260.00", "on", "14-Jul-25", ";", "Ravikumar", "H", "credited", ".", "UPI:268388361955"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1000.00", "on", "13-Jul-25", ";", "G", "VENKATA", "SUBRA", "credited", ".", "UPI:137867308016"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "B-TRANSACTION_TYPE", "O", "B-UPI"]
+    },
+    {
+      "tokens": ["Dear", "Customer", ",", "Acct", "XX436", "is", "credited", "with", "Rs", "40.00", "on", "13-Jul-25", "from", "P", "RAMARAO", ".", "UPI:402406241835-ICICI", "Bank"],
+      "labels": ["O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "B-UPI", "B-BANK"]
+    },
+    {
+      "tokens": ["INR", "1,712.20", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "13-Jul-25", "on", "RELIANCE", "SMART", ".", "Avl", "Limit", ":", "INR", "1,90,079.93", ".", "If", "not", "you", ",", "call", "1800", "2662/SMS", "BLOCK", "1019", "to", "9215676766"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-PHONE"]
+    },
+    {
+      "tokens": ["INR", "1,053.30", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "12-Jul-25", "on", "Amazon", "Debit", "C", ".", "Avl", "Limit", ":", "INR", "1,91,792.13", ".", "If", "not", "you", ",", "call", "1800", "2662/SMS", "BLOCK", "1019", "to", "9215676766"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "O", "O", "O", "B-ACCOUNT_NUMBER", "O", "B-PHONE"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "858.82", "on", "04-Jul-25", ";", "Dreamplug", "Servi", "credited", ".", "UPI", ":", "555112313622"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "176.00", "on", "04-Jul-25", ";", "CRED", "credited", ".", "UPI", ":", "555129316942"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "60.00", "on", "03-Jul-25", ";", "JAVERIYA", "BANU", "credited", ".", "UPI", ":", "707398809765"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "30.00", "on", "03-Jul-25", ";", "ASA", "GROUP", "credited", ".", "UPI", ":", "016127953863"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "55.00", "on", "03-Jul-25", ";", "MANJULA", "BAI", "M", "credited", ".", "UPI", ":", "905053614026"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["INR", "147.00", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "02-Jul-25", "on", "OPTIVAL", "HEALTH", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O"]
+    },
+    {
+      "tokens": ["INR", "500.00", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "02-Jul-25", "on", "KEERTHI", "SERVICE", "."],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "30.00", "on", "02-Jul-25", ";", "ASA", "GROUP", "credited", ".", "UPI", ":", "170866995718"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["Dear", "Customer", ",", "Payment", "of", "INR", "10,700.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "Account", "4xxx1019", "on", "02-Jul-25", "."],
+      "labels": ["O", "O", "O", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "O", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "O", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "1800.00", "on", "02-Jul-25", ";", "ARUNA", "RAJALAKSH", "credited", ".", "UPI", ":", "148142251663"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acc", "XX436", "debited", "Rs.", "10,700.00", "on", "02-Jul-25", "InfoBIL*001035919", ".", "Avl", "Bal", "Rs.", "11,648.97", "."],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "30.00", "on", "01-Jul-25", ";", "ASA", "GROUP", "credited", ".", "UPI", ":", "308895192257"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "B-UPI_ID"]
+    },
+    {
+      "tokens": ["Rs", "10,389.00", "spent", "on", "ICICI", "Bank", "Card", "XX1019", "on", "01-Jul-25", "at", "LIFE", "INSURANCE", ".", "Avl", "Lmt", ":", "Rs", "1,89,292.43"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "501.00", "on", "01-Jul-25", ";", "SHRI", "EDAMURI", "GA", "credited", ".", "UPI:824816463553"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "B-TRANSACTION_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XXX436", "debited", "with", "INR", "1400.00", "on", "01-Jul-25", ".", "Acct", "XXX501", "credited", ".", "UPI:933571018892"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-TRANSACTION_ID"]
+    },
+    {
+      "tokens": ["Payment", "of", "Rs", "6,443.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1019", "through", "Bharat", "Bill", "Payment", "System", "on", "30-JUN-25", "."],
+      "labels": ["O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "B-DATE", "O"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "3500.00", "on", "30-Jun-25", ";", "K", "CHANDRASHEKAR", "credited", ".", "UPI:732202846351"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "B-TRANSACTION_ID"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acct", "XX436", "debited", "for", "Rs", "798.00", "on", "30-Jun-25", ";", "BHARTI", "AIRTEL", "L", "credited", ".", "UPI:518101049672"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "O", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "I-MERCHANT", "O", "O", "B-TRANSACTION_ID"]
+    },
+    {
+      "tokens": ["INR", "1,200.00", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "30-Jun-25", "on", "ROYAL", "VALTRANS", ".", "Avl", "Limit", ":", "INR", "1,93,238.43"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "1,633.00", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "29-Jun-25", "on", "IND*Amazon", ".", "Avl", "Limit", ":", "INR", "1,94,438.43"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "989.00", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "29-Jun-25", "on", "IND*Amazon", ".", "Avl", "Limit", ":", "INR", "1,96,071.43"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["INR", "656.29", "spent", "using", "ICICI", "Bank", "Card", "XX1019", "on", "29-Jun-25", "on", "RELIANCE", "SMART", ".", "Avl", "Limit", ":", "INR", "1,97,060.43"],
+      "labels": ["B-CURRENCY", "B-AMOUNT", "B-TRANSACTION_TYPE", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O", "B-MERCHANT", "I-MERCHANT", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["Dear", "Customer", ",", "Payment", "of", "INR", "4,000.00", "has", "been", "received", "on", "your", "ICICI", "Bank", "Credit", "Card", "XX1019", "on", "28-JUN-25", "."],
+      "labels": ["O", "O", "O", "O", "O", "B-CURRENCY", "B-AMOUNT", "O", "O", "B-TRANSACTION_TYPE", "O", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-DATE", "O"]
+    },
+    {
+      "tokens": ["Spent", "Rs.659", "From", "HDFC", "Bank", "Card", "x2907", "At", "HDFCBAN10303735", "On", "2025-06-28:18:29:23", "Bal", "Rs.555383.16"],
+      "labels": ["B-TRANSACTION_TYPE", "B-AMOUNT", "O", "B-BANK", "I-BANK", "I-CARD_TYPE", "B-ACCOUNT_NUMBER", "O", "B-MERCHANT", "O", "B-DATE", "O", "B-CURRENCY", "B-AMOUNT"]
+    },
+    {
+      "tokens": ["ICICI", "Bank", "Acc", "XX436", "debited", "Rs.", "4,000.00", "on", "28-Jun-25", "InfoBIL*001033804", ".", "Avl", "Bal", "Rs.", "8,594.97"],
+      "labels": ["B-BANK", "I-BANK", "O", "B-ACCOUNT_NUMBER", "B-TRANSACTION_TYPE", "B-CURRENCY", "B-AMOUNT", "O", "B-DATE", "B-TRANSACTION_ID", "O", "O", "O", "B-CURRENCY", "B-AMOUNT"]
+    }
+  
+]
